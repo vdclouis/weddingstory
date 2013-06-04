@@ -1,0 +1,34 @@
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+  color: white;
+  margin: 20em auto 0 auto;
+  text-align: center;
+  
+  h1 {
+    font-weight: 100;
+    margin: 0;
+  }
+  
+  ul {
+    border-top: 1px dashed white;
+    display: inline-block;
+    padding: 0;
+    
+    li {
+      display: inline-block;
+      margin-right: 20px;
+      padding: 10px 20px;
+      
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
