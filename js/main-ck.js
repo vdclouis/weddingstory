@@ -1,0 +1,1 @@
+$(function(){var e=["bg1.jpg","bg2.jpg","bg3.jpg"],t=e[Math.floor(Math.random()*e.length)];$("html").css({"background-image":"url(../img/"+t+")"});if(t==="bg1.jpg"){$(".content").css({color:"black"});$(".content ul").css({"border-top":"1px dashed black"})}});
