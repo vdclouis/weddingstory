@@ -14,7 +14,7 @@ html {
   text-align: center; }
   @media (max-width: 650px) {
     .content {
-      margin: 10em auto 0 auto; } }
+      margin: 8em auto 0 auto; } }
   .content h1 {
     font-weight: 100;
     margin: 0; }
