@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Lorenzo Bown -- @lorenzoBown
+    Louis Van de Calseyde -- @vdclouis
+
+# THANKS
+
+    Mickael Daniel -- @mklabs
+
+# TECHNOLOGY COLOPHON
+
+    Jekyll
+    CSS3, HTML5
+    GitHub Pages
