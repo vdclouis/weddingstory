@@ -1,3 +1,15 @@
+@mixin bp($point) {
+  @if $point == papa-bear {
+    @media (max-width: 1600px) { @content; }
+  }
+  @else if $point == mama-bear {
+    @media (max-width: 1250px) { @content; }
+  }
+  @else if $point == baby-bear {
+    @media (max-width: 650px) { @content; }
+  }
+}
+
 html {
   background-image: url(../img/bg3.jpg);
   background-repeat: no-repeat;
@@ -13,6 +25,10 @@ html {
   color: white;
   margin: 20em auto 0 auto;
   text-align: center;
+  
+  @include bp(baby-bear) {
+    margin: 10em auto 0 auto;
+  }
   
   h1 {
     font-weight: 100;

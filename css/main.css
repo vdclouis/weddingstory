@@ -12,6 +12,9 @@ html {
   color: white;
   margin: 20em auto 0 auto;
   text-align: center; }
+  @media (max-width: 650px) {
+    .content {
+      margin: 10em auto 0 auto; } }
   .content h1 {
     font-weight: 100;
     margin: 0; }
