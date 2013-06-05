@@ -1,3 +1,6 @@
+$('.lbox').hide();
+$('#overlay').hide();
+
 $(function() {
 
   var images = ['bg1.jpg', 'bg2.jpg', 'bg3.jpg'];
@@ -10,9 +13,6 @@ $(function() {
     $('.content .hero ul').css({'border-top': '1px dashed black'});
     $('.content ul li a').css({'color': 'black'});
   }
-  
-  $('.lbox').hide();
-  $('#overlay').hide();
   
   $('#info').click(function() {
     $('.info').show();

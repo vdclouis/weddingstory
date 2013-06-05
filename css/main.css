@@ -27,6 +27,9 @@ html {
     font-family: 'Lavanderia';
     font-size: 5em;
     font-weight: 200; }
+    @media (max-width: 650px) {
+      .content .hero h1 {
+        font-size: 4em; } }
   .content .hero h2 {
     font-weight: 200;
     margin: 0; }
@@ -67,10 +70,10 @@ html {
   left: -moz-calc(50% - 15em); }
   @media (max-width: 650px) {
     .lbox {
-      width: 20em;
-      left: calc(50% - 10em);
-      left: -webkit-calc(50% - 10em);
-      left: -moz-calc(50% - 10em);
+      width: 16em;
+      left: calc(50% - 8.4em);
+      left: -webkit-calc(50% - 8.4em);
+      left: -moz-calc(50% - 8.4em);
       top: 5%; } }
   .lbox h3 {
     color: pink;

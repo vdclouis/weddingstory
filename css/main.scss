@@ -47,6 +47,10 @@ html {
       font-family: 'Lavanderia';
       font-size: 5em;
       font-weight: 200;
+      
+      @include bp(baby-bear) {
+        font-size: 4em;
+      }
     }
     
     h2 {
@@ -101,10 +105,10 @@ html {
   left: -moz-calc(50% - 15em);
   
   @include bp(baby-bear) {
-    width: 20em;
-    left: calc(50% - 10em);
-    left: -webkit-calc(50% - 10em);
-    left: -moz-calc(50% - 10em);
+    width: 16em;
+    left: calc(50% - 8.4em);
+    left: -webkit-calc(50% - 8.4em);
+    left: -moz-calc(50% - 8.4em);
     top: 5%;
   }
   
