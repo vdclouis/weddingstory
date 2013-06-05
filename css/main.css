@@ -104,7 +104,7 @@ html {
       left: -webkit-calc(50% - 20em); } }
   @media (max-width: 650px) {
     .video {
-      width: 18em;
+      width: 16em;
       left: calc(50% - 8.4em);
       left: -webkit-calc(50% - 8.4em);
       left: -moz-calc(50% - 8.4em);
