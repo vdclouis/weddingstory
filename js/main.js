@@ -5,8 +5,35 @@ $(function() {
   $('html').css({'background-image': 'url(../img/' + random + ')'});
   
   if ( random === 'bg1.jpg' ) {
-    $('.content').css({'color': 'black'});
-    $('.content ul').css({'border-top': '1px dashed black'});
+    $('.content h1').css({'color': 'black'});
+    $('.content h2').css({'color': 'black'});
+    $('.content .hero ul').css({'border-top': '1px dashed black'});
+    $('.content ul li a').css({'color': 'black'});
   }
+  
+  $('.lbox').hide();
+  $('#overlay').hide();
+  
+  $('#info').click(function() {
+    $('.info').show();
+    $('#overlay').show();
+  });
+  
+  $('#video').click(function() {
+    $('.video').show();
+    $('#overlay').show();
+  });
+  
+  $('#contact').click(function() {
+    $('.contact').show();
+    $('#overlay').show();
+  });
+  
+  $('#overlay, .close').click(function() {
+    $('#overlay').hide();
+    $('.lbox').hide();
+  });
+  
+  $('.content').fitVids();
   
 });
