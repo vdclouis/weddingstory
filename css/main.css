@@ -104,10 +104,10 @@ html {
       left: -webkit-calc(50% - 20em); } }
   @media (max-width: 650px) {
     .video {
-      width: 20em;
-      left: calc(50% - 10em);
-      left: -webkit-calc(50% - 10em);
-      left: -moz-calc(50% - 10em);
+      width: 18em;
+      left: calc(50% - 8.4em);
+      left: -webkit-calc(50% - 8.4em);
+      left: -moz-calc(50% - 8.4em);
       top: 5%; } }
 
 .center {
