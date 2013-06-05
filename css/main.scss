@@ -168,9 +168,11 @@ html {
 
 .close {
   position: absolute;
-  right: -20px;
-  top: -20px;
+  right: -16px;
+  top: -16px;
   cursor: pointer;
+  width: 30px;
+  height: 28px;
 }
 
 .pink {
