@@ -79,7 +79,7 @@ html {
 
 #overlay {
   position: absolute;
-  -webkit-transition: all 1s;
+  -webkit-transition: background 1s;
   left: 0;
   top: 0;
   height: 100%;
@@ -88,7 +88,7 @@ html {
 }
 
 .lbox {
-  border: 5px solid black;
+  border: 3px solid black;
   width: 30em;
   position: absolute;
   background: white;
@@ -114,20 +114,47 @@ html {
   }
   
   ul {
+    margin-bottom: 10px;
     li {
       list-style: none;
     }
     ul {
       li {
         list-style: circle;
+        color: pink;
+        
+        span {
+          color: black;
+        }
       }
     }
   }
 
   h4, ul, p, a {
     color: black;
+    text-decoration: none;
     display: block;
     padding: 0 20px;
+  }
+}
+
+.video {
+  width: 50em;
+  left: calc(50% - 25em);
+  left: -webkit-calc(50% - 25em);
+  
+  @include bp(mama-bear) {
+    width: 40em;
+    left: calc(50% - 20em);
+    left: -webkit-calc(50% - 20em);
+  }
+  
+  @include bp(baby-bear) {
+    width: 20em;
+    left: calc(50% - 10em);
+    left: -webkit-calc(50% - 10em);
+    left: -moz-calc(50% - 10em);
+    top: 5%;
   }
 }
 
